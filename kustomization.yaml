@@ -6,3 +6,9 @@ resources:
   - cache/
   - db/
 
+commonLabels:
+  org: memieee
+
+namespace: development
+
+namePrefix: Resos-

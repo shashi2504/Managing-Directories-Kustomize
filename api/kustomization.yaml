@@ -6,3 +6,11 @@ resources:
   - api-deploy.yaml
   - api-service.yaml
   
+
+commonLabels:
+  feature: api
+
+nameSuffix: -web
+
+commonAnnotaions:
+  verbose: debugging

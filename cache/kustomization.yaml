@@ -6,4 +6,11 @@ resources:
   - redis-config.yaml
   - redis-deploy.yaml
   - redis-service.yaml
+
+
+commonLabels:
+  feature: cache
+
+nameSuffix: -cache
+
   

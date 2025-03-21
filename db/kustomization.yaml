@@ -6,4 +6,14 @@ resources:
   - db-config.yaml
   - db-deploy.yaml
   - db-service.yaml
+
+commonLabels:
+  feature: database
+
+nameSuffix: -storage
   
+
+images:
+  - name: mongo:latest
+    newName: postgres
+    newTag: latest
